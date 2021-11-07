@@ -12,9 +12,9 @@ const Map = () => {
         const map = new mapboxgl.Map({
           container: "map",
           style: "mapbox://styles/drakosi/ckvcwq3rwdw4314o3i2ho8tph",
-          //   center: [longitude, latitude],
-          center: [-99.29011, 39.39172],
-          zoom: 3,
+          center: [longitude, latitude],
+          //   center: [-99.29011, 39.39172],
+          zoom: 15,
         });
         map.addControl(new mapboxgl.NavigationControl());
         map.addControl(
